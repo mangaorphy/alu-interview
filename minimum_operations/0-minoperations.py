@@ -2,6 +2,8 @@
 """
 calculates the fewest number of operations needed to result in exactly n H characters in the file.
 """
+
+
 def minOperations(n):
     """Calculate the minimum number of operations to get exactly n H's."""
     if n <= 1:
