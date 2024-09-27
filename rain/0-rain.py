@@ -11,7 +11,7 @@ def rain(walls):
     between the walls.
 
     Parameters:
-    walls (list of int): A list of non-negative integers representing the heights
+    walls:list of non-negative integers representing the heights
                          of walls with unit width 1.
 
     Returns:
@@ -19,7 +19,7 @@ def rain(walls):
          returns 0.
 
     Assumptions:
-    - The ends of the list (before index 0 and after index walls[-1]) are not walls,
+    - The ends of the list  are not walls,
       meaning they will not retain water.
     """
 
